@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transition Hover Task</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            margin: 50px;
+            transition: all 0.5s;
+        }
+
+        .box:hover {
+            background-color: red;
+            transform: scale(1.2);
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">Hover Me</div>
+
+    <button>Click Me</button>
+
+</body>
+</html>
